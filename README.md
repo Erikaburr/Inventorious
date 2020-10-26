@@ -1,1 +1,2 @@
-# Inventorious
+# Inventorious:
+  A simple MySQL database that keeps track of inventory for personnel, trucks, and stations. Next, we will upload the MySQL database to a website using PHP. This will provide accessibility to the database for anyone with the correct credentials. Once we have a working product we will upload the MySQL database and the website to the cloud using Amazon Web Services so that we have the ability to store the project and maintain connection, as well as take advantage of AWS’s help services should we run into any issues.
