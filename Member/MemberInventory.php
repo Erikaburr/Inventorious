@@ -21,7 +21,7 @@ text-align: right;
 	$email = $_SESSION['email'];
 	echo "User: ";
 
-	$con=mysqli_connect("localhost","test","test","BEVFR");
+	$con=mysqli_connect("localhost", 'u59pnag8ayzvm', 'stupiduserpassword.', 'dbzh9nn9rqnnqw');
 	if (mysqli_connect_errno()) {
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
@@ -47,7 +47,7 @@ text-align: right;
 	session_start();
 	$email = $_SESSION['email'];
 
-	$con=mysqli_connect("localhost","test","test","BEVFR");
+	$con=mysqli_connect("localhost", 'u59pnag8ayzvm', 'stupiduserpassword.', 'dbzh9nn9rqnnqw');
 	if (mysqli_connect_errno()) {
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
